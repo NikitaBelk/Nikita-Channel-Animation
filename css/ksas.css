@@ -1,0 +1,51 @@
+body{
+background-color: aquamarine;
+}
+.shapka{
+    background-color: crimson;
+    padding: 24px; /* Поля вокруг текста */
+    border: 4px solid brown;
+}
+.test2{
+   margin-left: auto;
+   margin-right: auto
+}
+.test3{
+    margin-left: 99%;
+ }
+.test1{
+    color:white;
+    font-size: 36px;
+	text-align: center;
+
+
+}
+.corobka_informazhii{
+    border: 4px solid gray; /* Параметры границы */
+    background: gainsboro; /* Цвет фона */
+    padding: 10px;
+    font-family:'Courier New';
+    src: url("../font/ice_pixel-7.ttf");
+    font-size: 24px;
+
+}
+
+.buton{
+    border: 2px solid brown;
+    padding: 5px;
+    background-color: maroon;
+    text-decoration: none;
+    color:aliceblue;
+    font-family: "Roboto Regular";
+    src: url("../font/anothercastle3.ttf");
+    font-size: 24px; 
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../font/anothercastle3.ttf");
+  }
+.gfs{
+    margin-left: 50%;
+    margin-right: 50%;
+    border: 4px solid darkred;
+}
