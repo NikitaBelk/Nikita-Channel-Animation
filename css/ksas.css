@@ -45,7 +45,22 @@ background-color: aquamarine;
   src: url("../font/anothercastle3.ttf");
   }
 .gfs{
+    margin-left: calc(50% - 250px );
+    border: 4px solid black;
+}
+.tgf{
+    margin-left: calc(50% - 250px );
+    
+}
+.boxinf{
+    border: 1px solid gray;
+    text-align: left;
+    width: min-content;
+}
+.cent{
+    width: 70%;
+    margin-left: 15%;
+}
+.vid{
     margin-left: 50%;
-    margin-right: 50%;
-    border: 4px solid darkred;
 }
