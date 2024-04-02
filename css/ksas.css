@@ -1,164 +1,218 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-body{
-background-color: aquamarine;
-}
-.shapka{
-    background-color: crimson;
-    padding: 24px; /* Поля вокруг текста */
-    border: 4px solid brown;
-}
-.test2{
-   margin-left: auto;
-   margin-right: auto;
-}
-.test3{
-    margin-left: 99%;
- }
-.test1{
-    color:white;
-    font-size: 36px;
-	text-align: center;
-
-
-}
-.corobka_informazhii{
-    border: 4px solid gray; /* Параметры границы */
-    background: gainsboro; /* Цвет фона */
-    padding: 10px;
-    font-family:'Courier New';
-    src: url("../font/ice_pixel-7.ttf");
-    font-size: 24px;
-
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.buton{
-    border: 2px solid brown;
-    padding: 5px;
-    background-color: maroon;
-    text-decoration: none;
-    color:aliceblue;
-    font-family: "Roboto Regular";
-    src: url("../font/anothercastle3.ttf");
-    font-size: 24px;
-    cursor: pointer;
+body {
+  background: crimson url("../img/background.png");
+  background-size: 178px;
+  padding-left: 15%;
+  width: 70%;
+  animation: slide 10s linear infinite;
+  overflow: visible;
 }
+
+@keyframes slide {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 178px;
+  }
+}
+
+hr{
+    height: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+header {
+  background-color: crimson;
+  padding: 24px; /* Поля вокруг текста */
+  border: 4px solid brown;
+  z-index: 2;
+}
+
+.test2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.test3 {
+  margin-left: 99%;
+}
+
+.test1 {
+  color: white;
+  font-size: 36px;
+  font-family: "Sega";
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+li::before {
+  content: "› ";
+  font-weight: 1000;
+  color: crimson;
+}
+
+main {
+  background: gainsboro; /* Цвет фона */
+  padding: 10px;
+  font-family: "Courier New";
+  src: url("../font/ice_pixel-7.ttf");
+  font-size: 24px;
+  z-index: 1;
+}
+
+.buton {
+  border: 2px solid brown;
+  padding: 5px;
+  background-color: maroon;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: "Roboto Regular";
+  src: url("../font/anothercastle3.ttf");
+  font-size: 24px;
+  cursor: pointer;
+}
+
 @font-face {
   font-family: "Roboto Regular";
   src: url("../font/anothercastle3.ttf");
-  
-  }
-  @font-face {
-    font-family:'Courier New';
-    src: url("../font/lucidaconsole.ttf");
-    
-    }
-.gfs{
-    display: flex;
-    /*margin-left: calc(50% - 350px );*/
-    border: 4px solid black;
-    background-color: gray;
-    flex-direction: column;
-    align-items: center;
 }
-.tgf{
-    margin-left: calc(50% - 250px );
-    
+
+@font-face {
+  font-family: "Courier New";
+  src: url("../font/lucidaconsole.ttf");
 }
-.boxinf{
-    border: 1px solid gray;
-    text-align: left;
-    width: min-content;
+
+@font-face {
+  font-family: "Sega";
+  src: url("../font/segalogofontrusbylyajka.otf");
 }
-.cent{
-    width: 70%;
-    margin-left: 15%;
+
+.gfs {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 18px;
 }
-.vid{
-border: 4px black solid;
-display: flex;
+
+.tgf {
+  margin-left: calc(50% - 250px);
 }
-.imges{
-    display: flex;
-    border: 4px solid gray;
+
+.boxinf {
+  border: 1px solid gray;
+  text-align: left;
+  width: min-content;
 }
-.uh{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
+
+.cent {
+  width: 70%;
+  margin-left: 15%;
 }
-.podval{
-    background-color: black;
-    color:aliceblue;
-    display:flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-evenly;
+
+.vid {
+  border: 4px black solid;
+  margin-left: 15%;
 }
-.uh1{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
+.imges {
+  display: flex;
+  border: 4px solid gray;
 }
-.imgg{
-    border: 4px solid rgb(0, 0, 0);
-    padding: 0px;
+
+.uh {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
-.bucket{
-     text-decoration:none;
-     color:black
+
+.podval {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
-.buton3{
-    text-decoration:none;
-    color:white
+
+.uh1 {
+    text-align: center;
 }
-a:hover{
-    color:red;
-    transition: 0.8;
-    font-size: 24px;
-    transition-duration: 0.8s;
+
+.imgg {
+  border: 4px solid rgb(0, 0, 0);
+  padding: 0px;
 }
+.bucket {
+  text-decoration: none;
+  color: black;
+}
+
+.buton3 {
+  text-decoration: none;
+  color: white;
+}
+
+.buton3:hover {
+  color: white;
+  transition: 0.2;
+  padding-left: 10px;
+  transition-duration: 0.2s;
+}
+
+a:hover {
+  color: red;
+  transition: 0.8;
+  transition-duration: 0.8s;
+}
+
 .semi {
-    display: flex;
-    opacity: 0; /* Полупрозрачность элемента */
-    width: 32px;
-    height: 32px;
-   }
-.semi:hover{
-    opacity: 0.5; 
+  display: flex;
+  opacity: 0; /* Полупрозрачность элемента */
+  width: 32px;
+  height: 32px;
 }
-podval:before {
-	content:'vxbvc';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 0;
-	height: 42px;
-	background: rgba(255,255,255,0.3);
-	border-radius: 5px;
-	transition: all 2s ease;
+
+.semi:hover {
+  opacity: 0.5;
 }
-  podval:hover:before {
-    width: 100%;
-  };
-  .da{
-    font-size: 64px;
-    font-weight: bold;
-    display: inline-block; /* Строчно-блочный элемент */
-    transition-duration: 3s; /* Время перехода */
-    transform: translate(0, 0);
-    
-    
-  }
-  .da:hover{
-    transition: 0.8;
-    font-size: 32px;
-    font-weight: bold;
-    transition-duration: 0.8s;
-    transform: translate(5%, 0);
-  }
+
+.podval:before {
+  content: "vxbvc";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  transition: all 2s ease;
+}
+
+.podval:hover:before {
+  width: 100%;
+}
+
+.da {
+  font-weight: bold;
+  display: inline-block; /* Строчно-блочный элемент */
+  transition-duration: 3s; /* Время перехода */
+  transform: translate(0, 0);
+}
+
+.da:hover {
+  transition: 0.8;
+  font-weight: bold;
+  transform: scaleX(140%) translateX(14%);
+  margin-right: 180px;
+  transition-duration: 0.8s;
+}
