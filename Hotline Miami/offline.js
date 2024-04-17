@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1712655016,
+	"version": 1713363479,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -7,11 +7,35 @@
 		"images/player-sheet0.png",
 		"images/bullet-sheet0.png",
 		"images/camera-sheet0.png",
+		"images/uzi-sheet0.png",
+		"images/legs-sheet0.png",
+		"images/enemyrange-sheet0.png",
+		"images/enemymelee-sheet0.png",
+		"images/corpse-sheet0.png",
+		"images/corpse-sheet1.png",
+		"images/enemyfat-sheet0.png",
+		"images/enemyfat-sheet1.png",
+		"images/walls.png",
+		"images/glass.png",
+		"images/tilemap.png",
+		"images/tilemap2.png",
+		"images/sprite-sheet0.png",
+		"media/snduzi.m4a",
+		"media/snduzi.ogg",
+		"media/sndtaser.m4a",
+		"media/sndtaser.ogg",
+		"media/sndhit3.m4a",
+		"media/sndhit3.ogg",
+		"media/sndglass1.m4a",
+		"media/sndglass1.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
 		"icon-128.png",
 		"icon-256.png",
-		"loading-logo.png"
+		"loading-logo.png",
+		"justicesemital-webfont.woff",
+		"justicesemital-webfont.woff2",
+		"stylesheet.css"
 	]
 }
