@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1716140557
+#1716280374
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -21,6 +21,7 @@ images/sprite16-sheet0.png
 images/sprite17-sheet0.png
 images/sprite18-sheet0.png
 images/barrel-sheet0.png
+images/sprite-sheet0.png
 images/enemyfat-sheet0.png
 images/enemyfat-sheet1.png
 images/enemymelee-sheet0.png
@@ -32,12 +33,13 @@ images/enemyrange-sheet0.png
 images/player-sheet0.png
 images/legs-sheet0.png
 images/enemydodger-sheet0.png
+images/enemyidle-sheet0.png
 images/uzi-sheet0.png
 images/walls.png
 images/glass.png
 images/tilemap.png
 images/tilemap2.png
-images/sprite-sheet0.png
+images/endtrigger-sheet0.png
 images/tilemap3.png
 images/tilemap4.png
 images/tiledbackground.png
@@ -46,8 +48,11 @@ images/cursor-sheet1.png
 images/cursor-sheet2.png
 images/tilemap5.png
 images/explosion-sheet0.png
+images/enemytrigger-sheet0.png
 media/cyberia.ogg
 media/mechagrey.ogg
+media/typhoon.ogg
+media/typhoonintro.ogg
 media/snduzi.m4a
 media/snduzi.ogg
 media/sndtaser.m4a
