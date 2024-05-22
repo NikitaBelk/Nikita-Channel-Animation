@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1716280374
+#1716357358
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -26,7 +26,6 @@ images/enemyfat-sheet0.png
 images/enemyfat-sheet1.png
 images/enemymelee-sheet0.png
 images/bullet-sheet0.png
-images/camera-sheet0.png
 images/corpse-sheet0.png
 images/corpse-sheet1.png
 images/enemyrange-sheet0.png
@@ -49,6 +48,9 @@ images/cursor-sheet2.png
 images/tilemap5.png
 images/explosion-sheet0.png
 images/enemytrigger-sheet0.png
+images/spritefont.png
+images/cutscenetrigger-sheet0.png
+images/camera-sheet0.png
 media/cyberia.ogg
 media/mechagrey.ogg
 media/typhoon.ogg
@@ -71,5 +73,6 @@ loading-logo.png
 justicesemital-webfont.woff
 justicesemital-webfont.woff2
 stylesheet.css
+scenes.xml
 NETWORK:
 *

@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1716280374,
+	"version": 1716357358,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -27,7 +27,6 @@
 		"images/enemyfat-sheet1.png",
 		"images/enemymelee-sheet0.png",
 		"images/bullet-sheet0.png",
-		"images/camera-sheet0.png",
 		"images/corpse-sheet0.png",
 		"images/corpse-sheet1.png",
 		"images/enemyrange-sheet0.png",
@@ -50,6 +49,9 @@
 		"images/tilemap5.png",
 		"images/explosion-sheet0.png",
 		"images/enemytrigger-sheet0.png",
+		"images/spritefont.png",
+		"images/cutscenetrigger-sheet0.png",
+		"images/camera-sheet0.png",
 		"media/cyberia.ogg",
 		"media/mechagrey.ogg",
 		"media/typhoon.ogg",
@@ -71,6 +73,7 @@
 		"loading-logo.png",
 		"justicesemital-webfont.woff",
 		"justicesemital-webfont.woff2",
-		"stylesheet.css"
+		"stylesheet.css",
+		"scenes.xml"
 	]
 }
