@@ -192,21 +192,6 @@ a:hover {
   opacity: 0.5;
 }
 
-/*.podval:before {
-  content: "vxbvc";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 42px;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 5px;
-  transition: all 2s ease;
-}
-*/
-.podval:hover:before {
-  width: 100%;
-}
 
 .da {
   font-weight: bold;
