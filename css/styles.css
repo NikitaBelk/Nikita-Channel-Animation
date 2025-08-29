@@ -101,6 +101,19 @@ body{
     transition: color 0.5s;  
     color: red;
 }
+.selectbox5{
+    padding: 15px;
+    border: 2px dashed darkred;
+     font-family: 'RalewayRegular';
+     font-size: 32px;
+     background-image: url(../img/FriendsPromotion/Freindpromotion.png);
+     background-repeat: no-repeat;
+     background-size:cover
+}
+.selectbox5:hover{
+    transition: color 0.5s;  
+    color: red;
+}
 a{
     text-decoration: none;
     color: White;
@@ -152,4 +165,16 @@ font-size: 48px;
     justify-content: center;
     height: 1000px;
     width: 600px;
+}
+.Support{
+        font-family: 'RalewayRegular';
+        font-size: 24px;
+    border: 4px dashed darkorange;
+    margin-top: 25px;
+    margin-left: auto;
+    display: flex;
+    width: 4em;
+    height: 5em;
+    background-color: orange;
+    align-items: center;
 }
